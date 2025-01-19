@@ -40,6 +40,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
+  console.log("Started");
   console.log("MONGO_URI:", process.env.MONGO_URI);
   console.log(`Server running on port ${PORT}`);
 });
