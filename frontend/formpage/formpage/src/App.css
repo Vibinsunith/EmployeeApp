@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+h3 {
+  text-align: center;
+}
+
+.deletebtn {
+  margin-left: 10px;
+}
+
+.editbtn {
+  margin-left: 30px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.FormMainClass {
+  background-color: #e0e8eb;
+  border-radius: 20px;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.FormInnerClass {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.inputClass {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.labelClass {
+  width: 100px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.9em;
+  text-align: left;
+  margin-left: 110px;
+}
+
+.ButtonWrapper {
+  background: black;
+  color: white;
+  padding: 8px;
+  margin-top: 10px;
+  border-style: none;
+  border-radius: 8px;
+}
+
+tr,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+a {
+  padding: 2px;
+  text-decoration: none;
+}
+
+.custom-navbar {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+}
+nav.custom-navbar {
+  background-color: rgb(242, 244, 107) !important;
+}
+
+.dashtitle {
+  margin-left: 308px;
+  margin-top: 25px;
+}
+
+.employeerow {
+  margin-left: 308px;
+}
+.employeecol1 {
+  padding: 10px;
+  margin-left: 322px;
+  width: 50px;
+  height: 145px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+  background-color: #af47e0;
+}
+.h6name {
+  margin-top: 10px;
+  color: white;
+}
+.submitbtn {
+  margin-left: 40px;
+}
+.registerbtn {
+  margin-left: 226px;
+}
